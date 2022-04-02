@@ -43,6 +43,8 @@ const Minter = (props) => {
     }
   }
 
+
+  
   useEffect(async () => {
     const {address, status} = await getCurrentWalletConnected();
     setWallet(address)
