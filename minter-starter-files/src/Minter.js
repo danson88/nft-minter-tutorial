@@ -8,6 +8,7 @@ import {
 
 
 
+
 const Minter = (props) => {
 
   //State variables
